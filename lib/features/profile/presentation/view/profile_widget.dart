@@ -39,7 +39,7 @@ class ProfileWidget extends StatelessWidget {
                 subtitle: Text("avatar url"),
               ),
               FilledButton(
-                onPressed: () => context.goNamed(friendsPostListRouteName),
+                onPressed: () => context.pushNamed(friendsPostListRouteName),
                 child: Text("Firends Post List"),
               ),
             ],
